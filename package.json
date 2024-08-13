@@ -1,22 +1,22 @@
 {
   "name": "@tomas-light/stylelint-config-idiomatic-order",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stylelint + idiomatic-css = ❤️",
   "main": "src/index.mjs",
   "scripts": {
     "test": "vitest run test/lint.test.mjs"
   },
   "dependencies": {
-    "stylelint-order": "6.0.4",
-    "vitest": "1.6.0"
+    "stylelint-order": "6.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.5.0",
     "eslint": "9.5.0",
     "globals": "15.6.0",
     "prettier": "3.3.2",
-    "stylelint": "16.6.1"
+    "stylelint": "16.6.1",
+    "vitest": "2.0.5"
   },
   "peerDependencies": {
     "stylelint": ">=11",
